@@ -1,0 +1,397 @@
+/**
+ * @file
+ * Views Styling
+ */
+
+
+/*
+ * Views' admin tabs
+ *
+ * The views admin tabs use the same classes as the secondary tabs. We prevent
+ * some of our tab styling from bleeding into (and breaking) the Views admin
+ * pages. If your sub-theme isn't used for admin pages, you can remove this
+ * entire section.
+ */
+
+.views-displays .secondary li {
+  float: none;
+  margin: 0 6px 0;
+}
+
+.views-displays .secondary a:link,
+.views-displays .secondary a:visited {
+  padding: 2px 7px 3px;
+  text-shadow: none;
+}
+
+.views-displays .secondary .open > a {
+  -webkit-border-radius: 7px 7px 0 0;
+  -moz-border-radius: 7px 7px 0 0;
+  -ms-border-radius: 7px 7px 0 0;
+  -o-border-radius: 7px 7px 0 0;
+  border-radius: 7px 7px 0 0;
+}
+
+.views-displays .secondary .open > a:hover {
+  color: #333;
+}
+
+.views-displays .secondary .action-list li {
+  margin: 0;
+}
+
+.views-displays .secondary .action-list li:first-child {
+  -webkit-border-radius: 0 7px 0 0;
+  -moz-border-radius: 0 7px 0 0;
+  -ms-border-radius: 0 7px 0 0;
+  -o-border-radius: 0 7px 0 0;
+  border-radius: 0 7px 0 0;
+}
+
+.views-displays .secondary .action-list li:last-child {
+  -webkit-border-radius: 0 0 7px 7px;
+  -moz-border-radius: 0 0 7px 7px;
+  -ms-border-radius: 0 0 7px 7px;
+  -o-border-radius: 0 0 7px 7px;
+  border-radius: 0 0 7px 7px;
+}
+
+/* Photo Gallery - don't display submission info */
+.node-903 {
+  padding-top:20px;
+}
+
+.node-903 > header {
+ display:none;
+}
+
+/* #Fundraising Panel# at bottom */
+div.panel-pane.pane-block.pane-block-52 {
+  margin-top:15px;
+  width:396px;
+  background-image: url(../images/diamond.png);
+  background-position: left top;
+  background-repeat: repeat-x;
+}
+
+div.panel-pane.pane-block.pane-block-52 h3 {
+  padding-top:20px;
+}
+
+/* Fundraising panel - right column containing posts about Fundraisers*/
+#mini-panel-fundraising_panel div.panel-pane.pane-custom.pane-1 {
+  margin-top:15px;
+  width:306px;
+  background-image: url(../images/diamond.png);
+  background-position: left top;
+  background-repeat: repeat-x;
+}
+
+#mini-panel-fundraising_panel div.panel-pane.pane-custom.pane-1 h3 {
+  padding-top:20px;
+}
+
+#mini-panel-fundraising_panel h2.pane-title {
+  width:300px;
+  font-size:1.5em;
+  font-weight: 300;
+  font-family: Anton, Arial;
+  letter-spacing: 0.1em;
+  background-image: url(../images/black_divider.png);
+  background-repeat: repeat-x;
+  background-position: left top;
+}
+
+/* eo#Fundraising Panel#*/
+
+/* #Frontpage Panel styles */
+/* Newsfeed view header style */
+div.panel-pane.pane-views.pane-newsfeed h2.pane-title {
+  margin-bottom: 0 !important;
+  width:396px;
+  font-size:2.16em;
+  font-weight:300;
+  font-family:Anton, Arial;
+  letter-spacing:0.1em;
+  line-height:2em;
+  background-image: url(../images/diamond.png);
+  background-position: left bottom;
+  background-repeat: repeat-x;
+}
+
+/* In Focus Panel header style */
+div.panel-pane.pane-panels-mini.pane-in-focus h2.pane-title {
+  margin-bottom: 0 !important;
+  width:297px;
+  font-size:2.16em;
+  font-weight:300;
+  font-family:Anton, Arial;
+  letter-spacing:0.1em;
+  background-image: url(../images/diamond.png);
+  background-repeat: repeat-x;
+  background-position: left bottom;
+}
+
+#mini-panel-in_focus div.panel-flexible-inside div.panels-flexible-row-3-main-row {
+  height:260px;
+}
+
+/* Diamond divider for Frontpage news posts - implemented as Row Style Output in View */
+.news-diamond-divider {
+  width: 396px;
+  padding-top:10px;
+  padding-bottom: 2em;
+  background-image: url(../images/diamond.png);
+  background-repeat: repeat-x;
+  background-position:left bottom;
+  background-size:2.5% 9px;
+}
+
+/* Define line height for article titles @ Newsfeed */
+div.views-row h2 { 
+  line-height:1.3em;
+}
+
+/* Don't display Taxonomy Tags title */
+div.field-label { 
+  display:none;
+}
+
+/* Taxonomy Tag output to be inline and with icon*/
+div.field-type-taxonomy-term-reference > div.field-items > div.field-item {
+  display: inline;
+  padding-left: 10px;
+  padding-right: 5px;
+  font-weight: bold;
+  background: url(../images/term_diamond.png) no-repeat scroll left center transparent;
+}
+
+/* Set styles for In Focus panes to be divided with black bar */
+div.panel-pane.pane-custom.pane-1 h2.pane-title,
+div.panel-pane.pane-custom.pane-2 h2.pane-title,
+div.panel-pane.pane-custom.pane-3 h2.pane-title,
+div.panel-pane.pane-custom.pane-4 h2.pane-title,
+div.panel-pane.pane-custom.pane-5 h2.pane-title {
+  width:300px;
+  font-size:1.5em;
+  background-image: url(../images/black_divider.png);
+  background-repeat: repeat-x;
+  background-position: left top;
+}
+
+/* In Focus Photo Slideshow Title styles */
+div.panel-pane.pane-views.pane-infocus-photo-slideshow h2.pane-title {
+  line-height:1.5em;
+  font-size:1.5em;
+  background-image:none;
+}
+
+div.view.view-infocus-photo-slideshow {
+  padding-top:10px;
+}
+
+div.panel-pane.pane-block.pane-block-32,
+div.panel-pane.pane-block.pane-block-31 {
+  width:300px;
+  padding-top:2px;
+  background-image: url(../images/black_divider.png);
+  background-repeat: repeat-x;
+  background-position: left top;
+}
+
+#diamond-panel-title-news {
+  display:absolute;
+  width:378px;
+  height: 9px;
+  padding-top:-20px;
+  background-image: url(../images/diamond.png);
+  background-repeat: repeat-x;
+  background-position:left bottom;
+}
+
+#diamond-panel-title-focus {
+  height: 9px;
+  width: 297px;
+  background-image: url(../images/diamond.png);
+  background-repeat: repeat-x;
+  background-position:left bottom;
+}
+
+#blackdivider-panel-title-focus {
+  width:300px;
+  height:3px;
+  background-image: url(../images/black_divider.png);
+  background-repeat: repeat-x;
+  background-position: left top;
+}
+
+/* Adjust height of images in teaser mode @ Frontpage Newsfeed */
+div.view.view-newsfeed img { 
+  height:auto !important;
+}
+
+div.field-item img {
+  height:auto !important;
+}
+/* eo#Frontpage Panel styles */
+
+/* Skateistan in Photos View | Spacing between caption and tags */
+div.view-skateistan-in-photos > div.view-content > div.views-row > article.node > div.field-name-taxonomy-vocabulary-4 {
+  padding-top:10px;
+}
+
+/* KSR-Videos pager at bottom */
+#widget_pager_bottom_videos-block_1 { 
+  position:relative;
+  z-index:1;
+  top:-40px;
+  left:495px;
+}
+
+/* Counter for KSR video slideshow */
+.views-field-counter { 
+  float:left;
+  margin-left:6px;
+  background-color:#000;
+  color:#fff;
+  padding:5px 6px 3px 6px;
+  font-size:1.4em;
+}
+
+.active .views-field-counter {
+  background-color:red;
+}
+
+#views_slideshow_cycle_main_videos-page_1 {
+  float:left;
+}
+
+/* Vertical photo center for Image Gallery */
+div.field-slideshow-slide.field-slideshow-slide-2, 
+div.field-slideshow-slide.field-slideshow-slide-7 {
+  left:25%!important;
+}
+
+/* Video gallery pager */
+#widget_pager_bottom_video_gallery-page { 
+  top:0px!important;
+}
+
+#view-video-gallery {
+  margin-top:-18px;
+}
+
+#views_slideshow_cycle_main_videos-block_1 {
+  position:relative;
+  z-index:0;
+}
+
+/* Video gallery field display */
+.views-slideshow-cycle-main-frame-row-item .views-field-field-video-embedding {
+  display:inline-block;
+  float:left;
+  vertical-align:top;
+  width:480px;
+}
+
+.views-slideshow-cycle-main-frame-row-item .views-field-body {
+  position:absolute;
+  width:230px;
+  display:inline-block;
+  padding-left:20px;
+  padding-top:10px;
+}
+
+
+/* Shop - Grid view formatting */
+.view.view-shop-eu div.view-content table.views-view-grid tbody tr td.col-1,
+.view.view-shop-us div.view-content table.views-view-grid tbody tr td.col-1 {
+  width:33%;
+  padding-top:1.5em;
+  padding-bottom:1.5em;
+}
+
+
+/* Press page - Selected press coverage view */
+.pane-publications,
+.pane-selected-press-coverage {
+  padding-bottom: 2em;
+  background-image: url(../images/diamond.png);
+  background-repeat: repeat-x;
+  background-position: left bottom;
+  background-size: 9px;
+  width: 711px;
+}
+
+.pane-selected-press-coverage table.views-view-grid {
+	width:710px;
+}
+
+.pane-selected-press-coverage div.views-field.views-field-field-tv-logo,
+.pane-selected-press-coverage div.views-field.views-field-field-pub-logo {
+	float:left;
+	padding-right:10px;
+}
+
+.pane-selected-press-coverage div.views-field.views-field-title,
+.pane-selected-press-coverage div.views-field.views-field-field-pub-name,
+.pane-selected-press-coverage div.views-field.views-field-field-tv-broadcaster {
+	padding-bottom:3px;
+}
+
+.pane-selected-press-coverage td.col-1,
+.pane-selected-press-coverage td.col-2 {
+	padding-bottom: 15px;
+}
+
+.pane-selected-press-coverage div.views-field.views-field-field-pub-date,
+.pane-selected-press-coverage div.views-field.views-field-field-pub-name,
+.pane-selected-press-coverage div.views-field.views-field-field-tv-date,
+.pane-selected-press-coverage div.views-field.views-field-field-tv-broadcaster {
+	display:inline-block;
+}
+
+.pane-selected-press-coverage div.views-field.views-field-title {
+	padding-top:20px;
+	font-weight:bold;
+}
+
+.pane-selected-press-coverage  td.col-last {
+  padding-left:20px;
+}
+
+.pane-selected-press-coverage div.views-field.views-field-field-pub-author div.field-content, 
+.pane-selected-press-coverage div.views-field.views-field-field-tv-author div.field-content {
+  display:inline-block;
+}
+
+/* Press page - Media publication table formatting */
+.pane-publications h2.pane-title, 
+.pane-tv-video-publications h2.pane-title,
+.pane-selected-press-coverage h2.pane-title {
+	font-family:'Anton';
+	font-weight:300;
+	letter-spacing:1px;
+}
+
+.pane-publications thead,
+.pane-tv-video-publications thead {
+	border-bottom: 2px solid #000;
+}
+
+.view-tv-video-publications table.views-table {
+ width:711px;
+}
+
+.pane-publications tr > td.views-field,
+.pane-tv-video-publications tr > td.views-field {
+	padding-bottom:5px;
+	padding-top:5px;
+}
+
+.pane-publications tr.even,
+.pane-publications tr.odd,
+.pane-publications tr.even,
+.pane-publications tr.odd {
+	border-bottom: 1px solid #000;
+}

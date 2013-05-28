@@ -1,0 +1,316 @@
+/**
+ * @file
+ * Block Styling
+ */
+
+
+.block { /* Block wrapper */
+/*  margin-bottom: 1.5em;*/
+}
+
+.block.first { /* The first block in the region */
+}
+
+.block.last { /* The last block in the region */
+}
+
+.block.odd { /* Zebra striping for each block in the region */
+}
+
+.block.even { /* Zebra striping for each block in the region */
+}
+
+h2.block-title { /* Block title - h2 to h4 */
+}
+
+/* no Block title for footer menu blocks - mb */
+#footer h2.block-title {	
+	display: none;
+}
+
+#block-aggregator-category-1 { /* Block for the latest news items in the first category */
+}
+
+#block-aggregator-feed-1 { /* Block for the latest news items in the first feed */
+}
+
+#block-block-1 { /* First block created with "Add block" link */
+}
+
+/* Space for top block in sidebar on Frontpage to make diamond dividers in line */
+#block-block-25 { 
+	padding-top:56px;
+}
+
+/* Newsletter signup block in Footer */
+#block-block-26 { 
+	display: inline-block;
+	margin-left: 220px;
+}
+
+/* Space on custom pages to make diamond dividers in line */
+#block-block-39,
+#block-block-43 { 
+	padding-top: 51px;
+
+}
+
+/* Spacer on Get Involved page to make diamond in line */
+#block-block-51 { 
+	padding-top: 39px;
+}
+
+/* Margin left of ul in Frontpage DDblock slideshow */
+#ddblock-number-pager-4 { 
+	margin-left:448px;
+}
+
+/* Margin left of ul in Frontpage DDblock slideshow */
+#ddblock-number-pager-7 { 
+	margin-left:528px;
+}
+
+#block-blog-recent { /* "Recent blog posts" block */
+}
+
+#block-book-navigation { /* "Book navigation" block for the current book's table of contents */
+}
+
+#block-comment-recent { /* "Recent comments" block */
+}
+
+#block-forum-active { /* "Active forum topics" block */
+}
+
+#block-forum-new { /* "New forum topics" block */
+}
+
+#block-locale-language { /* Language switcher block */
+}
+
+#block-menu-menu-NAME { /* Custom menu block */
+}
+
+#block-node-recent { /* "Recent content" block */
+}
+
+#block-node-syndicate { /* "Syndicate" block for primary RSS feed; see also page.css's .feed-icon */
+}
+
+#block-poll-recent { /* "Most recent poll" block */
+}
+
+#block-profile-author-information { /* "Author information" block for the profile of the page's author */
+}
+
+/* "Search form" block in header */
+#block-search-form { 
+	display: inline-block;
+	position: absolute;
+	margin: 0; 
+	padding: 0;
+	padding-top: 1px;
+	padding-left: 2px;
+	font-size: 11px;
+}
+
+/* "Search form" block, if invoked */
+form#search-block-form--2 { 
+	display: inline-block;
+	position: absolute;
+	margin: 0; 
+	padding-left: 1px;
+	padding-top: 1px;
+	font-size: 11px;
+}
+
+/* "Nice menu - Region menu" block */
+#block-nice-menus-1 {
+	display: inline-block;
+	height:25px;
+	margin: 0;
+	padding: 0;
+	padding-top: 1px;
+	font-size: 11px;
+
+}
+
+#nice-menus-1 {
+	display: inline-block;
+	height:23px;
+	margin: 0;
+	padding-top: 0px;
+	padding-left: 3px;
+	padding-right: 5px;
+	font-size: 11px;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	line-height: 1.3em;
+}
+
+
+.diamond-divider-sidebar {
+    width: 216px;
+    height: 9px;
+    background-image: url(../images/diamond.png);
+    background-repeat: repeat-x;
+    background-position:left bottom;
+}
+
+/* Diamond divider for sidebar */ 
+#diamond-divider-sidebar {
+	width: 216px;
+	height: 9px;
+	background-image: url(../images/diamond.png);
+	background-repeat: repeat-x;
+	background-position:left bottom;
+}
+
+/* Footer left navigation menu block */
+#block-menu-menu-footer-left { 
+	display: inline-block;
+	width: 150px;
+	height:23px;
+	margin-top: 0px;
+	vertical-align: top;
+}
+
+/* Footer middle navigation menu block */
+#block-menu-menu-footer-middle { 
+	display: inline-block;
+	width: 150px;
+	margin-left: 30px;
+	margin-top: 0px;
+	vertical-align: top;
+}
+
+/* Footer right navigation menu block */
+#block-menu-menu-footer-right { 
+	display: inline-block;
+	width: 150px;
+	margin-left: 30px;
+	margin-top: 0px;
+	vertical-align: top;
+}
+
+/* Bottom sponsor block */
+#block-panels-mini-sponsor-footer { 
+	background-color: #fff;
+}
+
+#block-panels-mini-sponsor-footer h2 {
+	margin-top: 20px;
+	line-height: 1em;
+	font-size: 11px;
+	color: #999;
+}
+
+/*
+ * Twitter Widget customization
+ */
+
+/* don't show footer */
+#twtr-widget-1 .twtr-ft {
+	display:none;
+}
+
+/* Links to be bold */
+#twtr-widget-1 .twtr-bd a {
+	font-weight: bold!important;
+}
+
+#twtr-widget-1 *,
+#twtr-widget-1 * h4 a
+{
+ 	background-color: white !important;
+}
+
+#twtr-widget-1 .twtr-doc,
+#twtr-widget-1 .twtr-doc ,
+#twtr-widget-1 .twtr-doc .twtr-hd,
+#twtr-widget-1 .twtr-doc .twtr-bd,
+#twtr-widget-1 .twtr-doc  .twtr-hd a,
+#twtr-widget-1 * h3,
+#twtr-widget-1 * h4,
+#twtr-widget-1 * .twtr-popular {
+ 	color: black !important;
+}
+
+/* Don't show header */
+#twtr-widget-1 .twtr-hd {
+	display: none;
+}
+
+#twtr-widget-1 .twtr-hd .twtr-profile-img {
+  float: right;
+  padding-left: 8px;
+  padding-right: 0px;
+}
+
+#twtr-widget-1 .twtr-bd {
+  background-color: white !important;
+  border-top: 2px solid black;
+  border-bottom:0!important;
+}
+
+#twtr-widget-1 .twtr-bd .twtr-timeline {
+  background-color: white !important;
+  text-align: left !important;
+}
+
+/* Individual post divider */ 
+
+.twtr-widget .twtr-tweet {
+	border-bottom: 2px solid black!important;
+	padding:10px 8px;
+}
+
+#tweet-id-1.twtr-tweet {
+	border-bottom:0!important;
+}
+
+.twtr-widget .twtr-tweet a.twtr-reply {
+	visibility:visible !important;
+	color: red !important;
+}
+
+/* Disqus comments block */
+#block-disqus-disqus-comments {
+	padding-top: 20px;
+}
+
+#block-shortcut-shortcuts { /* "Shortcuts" block */
+}
+
+#block-statistics-popular { /* "Popular content" block */
+}
+
+#block-system-main-menu { /* "Main menu" block */
+}
+
+#block-system-management { /* "Management" block for Drupal management menu */
+}
+
+#block-system-navigation { /* "Navigation" block for Drupal navigation menu */
+}
+
+#block-system-user-menu { /* "User menu" block for Drupal user menu */
+}
+
+#block-system-help { /* "System help" block */
+}
+
+#block-system-main { /* "Main page content" block */
+}
+
+#block-system-powered-by { /* "Powered by Drupal" block */
+}
+
+#block-user-login { /* "User login form" block */
+}
+
+#block-user-new { /* "Who's new" block for a list of the newest users */
+}
+
+#block-user-online { /* "Who's online" block for a list of the online users */
+}

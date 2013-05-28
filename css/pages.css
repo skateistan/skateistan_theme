@@ -1,0 +1,478 @@
+/**
+ * @file
+ * Page Styling
+ *
+ * Style the markup found in page.tpl.php. Also includes some styling of
+ * miscellaneous Drupal elements that appear in the $content variable, such as
+ * ul.links, .pager, .more-link, etc.
+ */
+
+
+/*
+ * Body
+ */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#page {
+}
+
+/*
+ * The skip-link link will be completely hidden until a user tabs to the link.
+ * See the element-focusable rule in system.base.css.
+ */
+
+#skip-link {
+  margin: 0;
+}
+#skip-link a,
+#skip-link a:visited {
+  display: block;
+  width: 100%;
+  padding: 2px 0 3px 0;
+  text-align: center;
+  background-color: #666;
+  color: #fff;
+}
+
+/*
+ * Header
+ */
+
+#header {
+
+}
+
+/* Header container */
+#meta {
+  padding-left: 350px;
+  padding-top: 7px;
+  width: 615px;
+  height: 25px;
+}
+
+/* Meta wrapper for region menu, search bar and social media icons */ 
+#meta-wrapper {
+  width: 100%;
+  height: 25px;
+
+}
+
+/* Social media link wrapper */
+#socialwrapper {
+  display: inline-block;
+  padding-top: 0px;
+  padding-left: 145px;
+  width: 235px;
+  vertical-align: top;
+  height:25px
+}
+
+ul.socialmedia {
+  display: inline;
+  top: 0px;
+  height: 25px;
+  padding-left:29px;
+}
+
+ul.socialmedia li {                 /* header/meta/meta-wrapper/socialmedia icon list on top - mb */
+  list-style: none;                 /* no bullets in list */
+  display:inline;
+  padding-left:1px;
+}
+
+/* Diamond arrow < */
+.diamond_left {
+  vertical-align:top;
+  display:inline-block;
+  width: 18px;
+  height: 24px;
+  background-image: url(../images/diamond_left.png);
+}
+
+/* Diamond arrow || */
+.diamond_middle {
+  display: inline-block;
+  width: 25px;
+  height: 24px;
+  padding-top: 1px;
+  padding-right: 4px;
+  background-image: url(../images/diamond_middle.png);
+  background-repeat: no-repeat;
+}
+
+/* Diamond arrow > */
+.diamond_right {
+  display: inline-block;
+  width: 18px;
+  height: 24px;
+  vertical-align:top;
+  padding-top: 2px;
+  background-image: url(../images/diamond_right.png);
+  background-repeat: no-repeat;
+}
+
+/* Diamond > in meta to float right */
+#diamond_right_meta {
+  float:right;
+}
+
+/* Full content width Diamond divider */
+.full-diamond-divider {
+  width: 711px;
+  padding-top:10px;
+  padding-bottom: 2em;
+  background-image: url(../images/diamond.png);
+  background-repeat: repeat-x;
+  background-position:left bottom;
+}
+
+#logo { /* Wrapping link for logo */
+  float: left; /* LTR */
+  margin: 0;
+  padding: 0;
+}
+
+#logo img {
+  padding-top:1.3em;
+  padding-left: 3.3em;
+}
+
+#name-and-slogan { /* Wrapper for website name and slogan */
+  float: left;
+}
+
+#site-name { /* The name of the website */
+  margin: 0;
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+#site-name a:link,
+#site-name a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+#site-name a:hover,
+#site-name a:focus {
+  text-decoration: underline;
+}
+
+#site-slogan { /* The slogan (or tagline) of a website */
+  margin: 0;
+  font-size: 1em;
+}
+
+/* Black full width bar behind navigation */
+#fullwidth-bar { 
+  position: absolute; 
+  height: 38px;
+  margin-top: 168px;
+  left: 0;
+  right:0;
+  background-color: black;
+  min-width:990px;
+}
+
+/* Diamond curtain to highlight Donate in main navigation */
+#donate-curtain {
+  position: absolute;
+  width: 129px;
+  height: 90px;
+  margin-top: 98px;
+  margin-left: 735px;
+  background-image: url(../images/curtain.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  z-index: 10;
+}
+
+#preface-top {
+  margin-top:10px;
+}
+
+.region-header { /* Wrapper for any blocks placed in the header region 
+  clear: both; --> deleted to enable float right for social plugins and search */
+}
+
+
+/*
+ * Main (container for everything else)
+ */
+
+#main {
+}
+
+/*
+ * Content
+ */
+
+#content {
+}
+
+.region-highlighted {
+}
+
+.breadcrumb { /* The path to the current page in the form of a list of links -  disabled mb - comment it?*/
+}
+
+.breadcrumb ol {
+  margin: 0;
+  padding: 0;
+}
+.breadcrumb li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* Diamond underline for page titles */
+#diamond-title {
+  height: 9px;
+  width: 711px;
+  background-image: url(../images/diamond.png);
+  background-repeat: repeat-x;
+}
+
+/* Diamond underline for page titles */
+.diamond-title {
+  height: 9px;
+  width: 711px;
+  background-image: url(../images/diamond.png);
+  background-repeat: repeat-x;
+}
+
+/* Page TITLE, space between menu bar + title */
+h1.title {        
+  padding-top: 8px;
+  text-transform: uppercase;
+  font-size: 2.16em;
+  font-family: Anton, Arial;
+
+}
+
+
+h1.title, /* The title of the page */
+h2.node-title, /* Title of a piece of content when it is given in a list of content */
+h2.block-title, /* Block title */
+h2.title, /* Comment section heading */
+h2.comment-form, /* Comment form heading */
+h3.title { /* Comment title */
+  margin: 5px 0px 0px 0px;
+}
+
+h3.title {
+  text-transform:uppercase;
+}
+
+/* Generic square hover buttons - mb */
+div.generic-button {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 3px;
+}
+
+div.generic-button a {
+  background-color: #000;
+  color: #fff;
+  font-family: arial;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 6px 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* Generic button | red hover */
+div.generic-button a.red-hover:hover {
+  background-color:red;
+}
+
+/* Generic button | green hover */
+div.generic-button a.green-hover:hover {
+  background-color:#339900;
+}
+
+/* Image class for Team photos */
+img.team {
+  width:200px;
+  height:200px;
+}
+
+
+tr.even { /* Some tables have rows marked even or odd. */
+  /* background-color: #eee; */ /* Drupal core uses a #eee background */
+}
+
+tr.odd {
+  /* background-color: #eee; */ /* Drupal core uses a #eee background */
+}
+
+div.messages { /* Important messages (status, warning, and error) for the user. See also the declarations in messages.css. */
+  margin: 1.5em 0; /* Drupal core uses "6px 0" margin */
+}
+div.messages ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+div.status { /* Normal priority messages */
+}
+
+div.warning,
+tr.warning { /* Medium priority messages */
+  /* border: 1px solid #f0c020; */ /* Drupal core uses: 1px solid #f0c020 */
+}
+
+div.error,
+tr.error { /* High priority messages. See also the .error declaration below. */
+}
+
+.error { /* Errors that are separate from div.messages status messages. */
+  /* color: #e55; */ /* Drupal core uses a #e55 background */
+}
+
+.warning { /* Warnings that are separate from div.messages status messages. */
+  /* color: #e09010; */ /* Drupal core uses a #e09010 background */
+}
+
+.tabs { /* See also the tabs.css file. */
+}
+
+.region-help { /* Help text on a page */
+}
+
+.more-help-link { /* Link to more help */
+}
+
+.region-content { /* Wrapper for the actual page content */
+}
+
+ul.inline { /* List of links generated by theme_links() */
+  display: inline;
+  padding: 0;
+}
+ul.inline li {
+  display: inline;
+  padding: 0 1em 0 0; /* LTR */
+  list-style-type: none;
+}
+
+span.field-label { /* The inline field label used by the Fences module */
+  padding: 0 1em 0 0; /* LTR */
+}
+
+/* A list of page numbers when more than 1 page of content is available */
+.item-list .pager { 
+  padding: 0;
+  text-align:left!important;
+  font-size:1.4em;
+}
+
+.item-list .pager li { /* Each page number in the pager list */
+  padding: 3px 8px;
+  background-color:#000;
+  color:#fff;
+}
+
+.item-list .pager li.pager-current {
+  background-color:red;
+}
+
+.item-list .pager li a {
+  color:#fff!important;
+}
+
+.item-list .pager li:hover {
+  background-color:red;
+  text-decoration:none;
+}
+
+.item-list .pager a:hover {
+  text-decoration:none;
+}
+
+.feed-icon { /* The link to the RSS or Atom feed for the current list of content */
+}
+
+.more-link { /* Aggregator, blog, and forum more link */
+}
+
+/* Hover buttons */
+img.img_nohover {
+  border:0
+} 
+
+img.img_hover {
+  border:0;
+  display:none
+} 
+a:hover img.img_hover {
+  display:inline
+} 
+a:hover img.img_nohover {
+  display:none
+} 
+
+
+/*
+ * First sidebar (on left in LTR languages, on right in RTL)
+ *
+ * Remember to NOT add padding or margin to your .region-sidebar-first
+ * (see the layout.css file.)
+ */
+
+.region-sidebar-first {
+}
+
+/*
+ * Second sidebar (on right in LTR languages, on left in RTL)
+ *
+ * Remember to NOT add padding or margin to your .region-sidebar-second
+ * (see the layout.css file.)
+ */
+
+.region-sidebar-second {
+}
+
+/*
+ * Footer
+ */
+
+#footer-wrapper {
+  position:relative;
+  bottom:0;
+  left:0;
+  margin-top:50px;
+  background-color: black;
+}
+
+#footer {
+  height:150px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+/* Page bottom with white outline */
+#bottom {
+  position:relative;
+  bottom:0;
+  left:0;
+  padding-bottom: 10px;
+  background-color: black;
+}
+
+
+/*
+ * Page bottom
+ */
+ 
+.region-bottom { /* Wrapper for any blocks placed in the page bottom region */
+
+}

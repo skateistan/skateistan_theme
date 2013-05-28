@@ -1,0 +1,357 @@
+/*!
+ * Dynamic display block module template (Drupal 7): skateistan10p - Cascading Style Sheet 
+ * (c) Copyright Phelsa Information Technology, 2011. All rights reserved.
+ * Version 1.0 ( 21-JAN-2011 )
+ * Licenced under GPL license
+ * http://www.gnu.org/licenses/gpl.html
+ */
+div.ddblock-cycle-skateistan10p div.container {
+  background-color:#fff;
+  width:940px;
+}
+
+div.ddblock-cycle-skateistan10p div.container-inner {
+  height:340px;
+  position:relative;
+  z-index:0
+}
+
+div.ddblock-cycle-skateistan10p div.slider {
+  float:left;
+  width:940px;
+  padding-top:10px;
+}
+
+div.ddblock-cycle-skateistan10p div.slider-inner {
+  background-color:#fff;
+  height:340px;
+  position:relative;
+}
+
+div.ddblock-cycle-skateistan10p div.slide {
+  display:none;
+  height:100%;
+  left:0;
+  position:absolute;
+  top:0;
+}
+
+div.ddblock-cycle-skateistan10p div.slide-inner {
+  width:940px;
+}
+
+div.ddblock-cycle-skateistan10p div.slide-inner img {
+  height:340px;
+  margin:0 !important;
+  padding:0 !important;
+  width:640px;
+  float:left;
+}
+
+div.ddblock-cycle-skateistan10p div.slide-text {
+  background-color:#fff;
+  position:absolute;
+  float:right;
+  width:300px;
+  height:340px;
+  margin:0px;
+}
+
+div.ddblock-cycle-skateistan10p div.slide-text-horizontal {
+  height:340px;
+  left:0;
+  width:940px;
+}
+
+div.ddblock-cycle-skateistan10p div.slide-text-vertical {
+  height:340px;
+  width:300px;
+}
+
+div.ddblock-cycle-skateistan10p div.slide-text-top {
+  top:7px;
+}
+
+div.ddblock-cycle-skateistan10p div.slide-text-right {
+  bottom:0;
+  right:0px;
+}
+
+div.ddblock-cycle-skateistan10p div.slide-text-bottom {
+  bottom:7px;
+}
+
+div.ddblock-cycle-skateistan10p div.slide-text-left {
+  bottom:0;
+  left:30px;
+}
+
+div.ddblock-cycle-skateistan10p div.slide-text-inner {
+  padding:10px;
+}
+
+div.ddblock-cycle-skateistan10p div.slide-title {
+  float:left;
+  padding-top:10px
+}
+
+div.ddblock-cycle-skateistan10p div.slide-title-vertical {
+  width:270px;
+}
+
+div.ddblock-cycle-skateistan10p div.slide-title-horizontal {
+  float:left;
+  width:235px;
+}
+
+div.ddblock-cycle-skateistan10p div.slide-title h4 {
+  color:#000!important;
+  margin:-5px 0 0 30px;
+  padding:0;
+  letter-spacing:2px;
+  text-transform:uppercase;
+  font-size:28px;
+  line-height:130%;
+}
+
+div.ddblock-cycle-skateistan10p div.slide-title-inner {
+  color:#000;
+  font-weight:bold;
+}
+
+div.ddblock-cycle-skateistan10p div.slide-body-vertical {
+  width:300px;
+}
+
+div.ddblock-cycle-skateistan10p div.slide-body-horizontal {
+  float:left;
+  width:305px;
+}
+
+div.ddblock-cycle-skateistan10p div.slide-body-inner {
+  color:#000;
+}
+
+div.ddblock-cycle-skateistan10p div.slide-body-inner p {
+  margin:80px 8px 0 30px;
+  padding:0;
+  font-weight:bold;
+  font-size: 12px;
+  line-height:1.4em;
+}
+
+div.ddblock-cycle-skateistan10p div.slide-read-more {
+  width:110px;
+}
+
+div.ddblock-cycle-skateistan10p div.slide-read-more p {
+  padding:0;
+  margin:0;
+}
+
+div.ddblock-cycle-skateistan10p div.slide-read-more a {
+  background:url(images/readmore.png) no-repeat;
+  border:none;
+  bottom:5px;
+  color:#fff;
+  font-size:14px;
+  font-family:times New Roman;
+  margin:0;
+  padding:4px 0 4px 19px;
+  position:absolute;
+  text-decoration:none;
+  text-align:left;
+  width:100px;
+}
+
+div.ddblock-cycle-skateistan10p div.slide-read-more-horizontal a {
+  right:-17px;
+}
+
+div.ddblock-cycle-skateistan10p div.slide-read-more-vertical a {
+  right:5px;
+}
+
+div.ddblock-cycle-skateistan10p div.slide-read-more a:hover {
+  background:url(images/readmore-hover.png) no-repeat;
+  text-decoration:underline;
+}
+
+div.ddblock-cycle-skateistan10p div.slide-read-more-horizontal a:hover {
+  right:-17px;
+}
+
+div.ddblock-cycle-skateistan10p div.slide-read-more-vertical a:hover {
+  right:5px;
+}
+
+div.ddblock-cycle-skateistan10p div.number-pager {
+  display:block;
+  margin-top:318px;
+  height:32px;
+  position:absolute;
+  z-index: 10;
+}
+
+div.ddblock-cycle-skateistan10p div.number-pager-inner {
+  margin:0;
+  padding:17px;
+}
+
+div.ddblock-cycle-skateistan10p div.number-pager ul {
+  list-style-type:none;
+  margin:0!important;
+  padding:0!important;
+  width:200px;
+}
+
+div.ddblock-cycle-skateistan10p div.number-pager ul li {
+  background:#000!important;
+  display:inline;
+  list-style-type:none!important;
+  margin:0;
+  padding:0!important;
+}
+
+div.ddblock-cycle-skateistan10p div.number-pager ul li a.pager-link {
+  background:#000;
+  width:32px;
+  color:#fff;
+  display:block;
+  float:left;
+  font-family:Arial,sans-serif;
+  font-size:24px;
+  font-weight:bold;
+  height:32px;
+  line-height:32px;
+  margin:0 8px 0 0;
+  text-align:center;
+  text-decoration:none!important;
+}
+
+div.ddblock-cycle-skateistan10p div.number-pager ul li a.activeSlide {
+  background:#ff0000;
+  color:#fff!important;
+}
+
+div.ddblock-cycle-skateistan10p div.number-pager ul li a:focus {
+  outline:none;
+}
+
+div.ddblock-cycle-skateistan10p div.number-pager ul li a.pager-link:hover {
+  background:#ff0000;
+  color:#fff!important;
+}
+
+/********************* previous next pager on slide **********************/
+div.ddblock-cycle-skateistan10p div.pager-slide{
+  height: 50px;
+  position: absolute;
+  top:130px;
+  width:50px;
+  z-index:50;
+}
+
+div.ddblock-cycle-skateistan10p div.pager-slide a{
+  display:block;
+  height:50px;
+  opacity: 0.7;
+  width:50px;
+}
+
+div.ddblock-cycle-skateistan10p div.next-container a.next{
+  background: url(images/next.png) no-repeat;
+}
+
+div.ddblock-cycle-skateistan10p div.prev-container a.prev{
+  background: url(images/prev.png) no-repeat;
+}
+
+div.ddblock-cycle-skateistan10p div.next-container a.next:hover{
+  background: url(images/next.png) no-repeat;
+  opacity:1;
+}
+
+div.ddblock-cycle-skateistan10p div.prev-container a.prev:hover{
+  background: url(images/prev.png) no-repeat;
+  opacity:1;
+}
+
+div.ddblock-cycle-skateistan10p div.pager-slide a:focus{
+  outline:none;
+} 
+
+div.ddblock-cycle-skateistan10p div.prev-container {
+  left:5px;
+}
+
+div.ddblock-cycle-skateistan10p div.next-container {
+  left:425px;
+}
+div.ddblock-cycle-skateistan10p div.spacer-vertical {
+  display:block;
+  float:left;
+  height:27px;
+  width:5px;
+  background-color:#ccc;
+}
+
+div.ddblock-cycle-skateistan10p div.spacer-horizontal {
+  clear:both;
+  height:5px;
+  background-color:#ccc;
+}
+
+/********************* Take action and info links at bottom *************/
+div.ddblock-cycle-skateistan10p div.slide-action-links {
+  display: block;
+  position: absolute;
+  bottom: 50px;
+  vertical-align: top;
+  margin-left: 16px !important;
+}
+
+div.ddblock-cycle-skateistan10p div.slide-info {
+  display:inline-block;
+  vertical-align: top;
+  padding-top: 5px;
+  margin-left:2px;
+}
+
+div.ddblock-cycle-skateistan10p div.slide-info a.slide-more-info {
+  background-color:#000;
+  color:#fff;
+  font-family:arial;
+  font-size:11px;
+  font-weight:bold;
+  padding:6px 14px;
+  text-decoration:none;
+  text-transform: uppercase;
+}
+
+div.ddblock-cycle-skateistan10p div.slide-info a.slide-more-info:hover {
+  background-color:#ff0000;
+  text-decoration:none;
+}
+
+div.ddblock-cycle-skateistan10p div.slide-action {
+  display:inline-block;
+  vertical-align: top;
+  padding-top: 5px;
+}
+
+div.ddblock-cycle-skateistan10p div.slide-action a.slide-take-action {
+  background-color:#000;
+  color:#fff;
+  font-family:arial;
+  font-size:11px;
+  font-weight:bold;
+  padding:6px 14px;
+  text-decoration:none;
+  text-transform: uppercase;
+}
+
+div.ddblock-cycle-skateistan10p div.slide-action a.slide-take-action:hover {
+  background-color:#339900;
+  text-decoration:none;
+}
