@@ -32,6 +32,12 @@
 .node-promoted { /* A node that has been promoted to the front page */
 }
 
+/* Links in blog posts to be bold */
+.node-student-blog-entry a:link,
+.node-blog a:link {
+  font-weight: bold;
+}
+
 .node-readmore { /* READ MORE to be bold */
   text-transform:uppercase;
   font-weight:bold;
