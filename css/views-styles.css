@@ -79,6 +79,11 @@ div.panel-pane.pane-block.pane-block-52 h3 {
 }
 
 /* Fundraising panel - right column containing posts about Fundraisers*/
+
+#mini-panel-fundraising_panel div.inside {
+  width:306px;
+}
+
 #mini-panel-fundraising_panel div.panel-pane.pane-custom.pane-1 {
   margin-top:15px;
   width:306px;
@@ -95,7 +100,7 @@ div.panel-pane.pane-block.pane-block-52 h3 {
   width:300px;
   font-size:1.5em;
   font-weight: 300;
-  font-family: Anton, Arial;
+  font-family: 'Anton', Arial;
   letter-spacing: 0.1em;
   background-image: url(../images/black_divider.png);
   background-repeat: repeat-x;
@@ -111,7 +116,7 @@ div.panel-pane.pane-views.pane-newsfeed h2.pane-title {
   width:396px;
   font-size:2.16em;
   font-weight:300;
-  font-family:Anton, Arial;
+  font-family:'Anton', Arial;
   letter-spacing:0.1em;
   line-height:2em;
   background-image: url(../images/diamond.png);
@@ -125,7 +130,7 @@ div.panel-pane.pane-panels-mini.pane-in-focus h2.pane-title {
   width:297px;
   font-size:2.16em;
   font-weight:300;
-  font-family:Anton, Arial;
+  font-family:'Anton', Arial;
   letter-spacing:0.1em;
   background-image: url(../images/diamond.png);
   background-repeat: repeat-x;
@@ -369,7 +374,7 @@ div.field-slideshow-slide.field-slideshow-slide-7 {
 .pane-publications h2.pane-title, 
 .pane-tv-video-publications h2.pane-title,
 .pane-selected-press-coverage h2.pane-title {
-	font-family:'Anton';
+	font-family:'Anton', Arial;
 	font-weight:300;
 	letter-spacing:1px;
 }

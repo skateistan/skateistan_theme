@@ -67,6 +67,11 @@ input#suhk-suhk.form-text {
   border: 1px solid white!important;
 }
 
+/* Fundraising Pack form width */
+#webform-client-form-881 div.form-textarea-wrapper {
+  width:710px;
+}
+
 .form-item input.error,
 .form-item textarea.error,
 .form-item select.error { /* Highlight the form elements that caused a form submission error */

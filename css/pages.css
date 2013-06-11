@@ -252,7 +252,7 @@ h1.title {
   padding-top: 8px;
   text-transform: uppercase;
   font-size: 2.16em;
-  font-family: Anton, Arial;
+  font-family: 'Anton', Arial;
 
 }
 
@@ -280,7 +280,7 @@ div.generic-button {
 div.generic-button a {
   background-color: #000;
   color: #fff;
-  font-family: arial;
+  font-family: Arial;
   font-size: 11px;
   font-weight: bold;
   padding: 6px 14px;
