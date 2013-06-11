@@ -110,6 +110,7 @@ div.ddblock-cycle-skateistan10p div.slide-title h4 {
   padding:0;
   letter-spacing:2px;
   text-transform:uppercase;
+  font-family:'Anton',Arial;
   font-size:28px;
   line-height:130%;
 }
@@ -321,7 +322,7 @@ div.ddblock-cycle-skateistan10p div.slide-info {
 div.ddblock-cycle-skateistan10p div.slide-info a.slide-more-info {
   background-color:#000;
   color:#fff;
-  font-family:arial;
+  font-family:Arial;
   font-size:11px;
   font-weight:bold;
   padding:6px 14px;
@@ -343,7 +344,7 @@ div.ddblock-cycle-skateistan10p div.slide-action {
 div.ddblock-cycle-skateistan10p div.slide-action a.slide-take-action {
   background-color:#000;
   color:#fff;
-  font-family:arial;
+  font-family:Arial;
   font-size:11px;
   font-weight:bold;
   padding:6px 14px;
