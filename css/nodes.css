@@ -38,6 +38,17 @@
   font-weight: bold;
 }
 
+/* Hover for blog post links */
+.node-student-blog-entry a:hover,
+.node-blog a:hover,
+.node-student-blog-entry a:focus,
+.node-blog a:focus,
+.node-student-blog-entry a:active,
+.node-blog a:active {
+  color: red;
+  text-decoration: underline;
+}
+
 .node-readmore { /* READ MORE to be bold */
   text-transform:uppercase;
   font-weight:bold;
