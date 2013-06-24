@@ -103,6 +103,30 @@ h2.block-title { /* Block title - h2 to h4 */
 #block-profile-author-information { /* "Author information" block for the profile of the page's author */
 }
 
+/* KSR Donation meter */
+.donation_meter_wrapper { 
+  height:20px;
+  width:132px;
+  border:1px solid black;
+  position:relative;
+  margin-left:150px;
+  margin-top:84px;
+}
+
+.current_total {
+  position:absolute;
+  top:12%;
+  left:29%;
+  height:20px;
+  width:132px;
+  color:#278E00;
+}
+
+.meter_bar {	/*show current amount in % width of total*/
+  height:20px;
+  background:#444;
+}
+
 /* "Search form" block in header */
 #block-search-form { 
 	display: inline-block;
