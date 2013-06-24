@@ -104,27 +104,30 @@ h2.block-title { /* Block title - h2 to h4 */
 }
 
 /* KSR Donation meter */
-.donation_meter_wrapper { 
-  height:20px;
-  width:132px;
-  border:1px solid black;
-  position:relative;
-  margin-left:150px;
-  margin-top:84px;
+.donation_meter_box { 
+	position:relative;
+	height:20px;
+	width:132px;
+	border:2px solid black;
 }
 
-.current_total {
-  position:absolute;
-  top:12%;
-  left:29%;
-  height:20px;
-  width:132px;
-  color:#278E00;
+.donation_meter_bar {	/* show current amount in % width of total */
+	height:20px;
+	background:#278E00;
 }
 
-.meter_bar {	/*show current amount in % width of total*/
-  height:20px;
-  background:#444;
+.current_goal_text {
+	position:absolute;
+	top:30px;
+	left:0px;
+	height:20px;
+	width:132px;
+	color:#000;
+	font-family:Anton, Arial;
+}
+
+span.current_amount {
+	color:#278E00;
 }
 
 /* "Search form" block in header */
