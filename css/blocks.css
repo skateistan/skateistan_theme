@@ -108,6 +108,7 @@ h2.block-title { /* Block title - h2 to h4 */
 	position:relative;
 	height:20px;
 	width:132px;
+	margin: 25px 0px 60px 40px;
 	border:2px solid black;
 }
 
@@ -232,80 +233,6 @@ form#search-block-form--2 {
 	line-height: 1em;
 	font-size: 11px;
 	color: #999;
-}
-
-/*
- * Twitter Widget customization
- */
-
-/* don't show footer */
-#twtr-widget-1 .twtr-ft {
-	display:none;
-}
-
-/* Links to be bold */
-#twtr-widget-1 .twtr-bd a {
-	font-weight: bold!important;
-}
-
-#twtr-widget-1 *,
-#twtr-widget-1 * h4 a
-{
- 	background-color: white !important;
-}
-
-#twtr-widget-1 .twtr-doc,
-#twtr-widget-1 .twtr-doc ,
-#twtr-widget-1 .twtr-doc .twtr-hd,
-#twtr-widget-1 .twtr-doc .twtr-bd,
-#twtr-widget-1 .twtr-doc  .twtr-hd a,
-#twtr-widget-1 * h3,
-#twtr-widget-1 * h4,
-#twtr-widget-1 * .twtr-popular {
- 	color: black !important;
-}
-
-/* Don't show header */
-#twtr-widget-1 .twtr-hd {
-	display: none;
-}
-
-#twtr-widget-1 .twtr-hd .twtr-profile-img {
-  float: right;
-  padding-left: 8px;
-  padding-right: 0px;
-}
-
-#twtr-widget-1 .twtr-bd {
-  background-color: white !important;
-  border-top: 2px solid black;
-  border-bottom:0!important;
-}
-
-#twtr-widget-1 .twtr-bd .twtr-timeline {
-  background-color: white !important;
-  text-align: left !important;
-}
-
-/* Individual post divider */ 
-
-.twtr-widget .twtr-tweet {
-	border-bottom: 2px solid black!important;
-	padding:10px 8px;
-}
-
-#tweet-id-1.twtr-tweet {
-	border-bottom:0!important;
-}
-
-.twtr-widget .twtr-tweet a.twtr-reply {
-	visibility:visible !important;
-	color: red !important;
-}
-
-/* Disqus comments block */
-#block-disqus-disqus-comments {
-	padding-top: 20px;
 }
 
 #block-shortcut-shortcuts { /* "Shortcuts" block */
