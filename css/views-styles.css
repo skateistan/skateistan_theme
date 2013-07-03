@@ -172,6 +172,7 @@ div.field-type-taxonomy-term-reference > div.field-items > div.field-item {
 }
 
 /* Set styles for In Focus panes to be divided with black bar */
+div.panel-pane.pane-views.pane-infocus-photo-slideshow h2.pane-title,
 div.panel-pane.pane-custom.pane-1 h2.pane-title,
 div.panel-pane.pane-custom.pane-2 h2.pane-title,
 div.panel-pane.pane-custom.pane-3 h2.pane-title,
@@ -184,11 +185,11 @@ div.panel-pane.pane-custom.pane-5 h2.pane-title {
   background-position: left top;
 }
 
-/* In Focus Photo Slideshow Title styles */
-div.panel-pane.pane-views.pane-infocus-photo-slideshow h2.pane-title {
-  line-height:1.5em;
-  font-size:1.5em;
-  background-image:none;
+/* In Focus Campaign Title styles */
+div.panel-pane.pane-block.pane-block-65 h2.pane-title {
+  line-height:1.5em !important;
+  font-size:1.5em !important;
+  background-image:none !important;
 }
 
 div.view.view-infocus-photo-slideshow {
