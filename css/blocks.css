@@ -49,11 +49,12 @@ h2.block-title { /* Block title - h2 to h4 */
 }
 
 /* Space on custom pages to make diamond dividers in line */
-/*#block-block-43, <-- Photo in Donate sidebar not at very top*/
+/*#block-block-43, <-- blocks in Donate sidebar & About Us temporarily not at very top 
 #block-block-39 { 
-	padding-top: 51px;
+        padding-top: 51px;
 
 }
+*/
 
 /* Spacer on Get Involved page to make diamond in line */
 #block-block-51 { 
