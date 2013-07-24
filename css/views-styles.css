@@ -56,6 +56,16 @@
   border-radius: 0 0 7px 7px;
 }
 
+/* Sponsor block at bottom - change opacity on hover of Sponsor logo */
+.views-field-field-sponsor-logo img {
+  opacity: 0.6;
+  filter: alpha (opacity=60);
+}
+.views-field-field-sponsor-logo img:hover {
+  opacity: 1.0;
+  filter: alpha (opacity=100);
+}
+
 /* Photo Gallery - don't display submission info */
 .node-903 {
   padding-top:20px;
