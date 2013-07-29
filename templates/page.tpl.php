@@ -120,9 +120,9 @@
             print render($block);
           ?>
         <div id="socialwrapper">
-          <ul class="socialmedia">
-             <li><a href="http://facebook.com/skateistan" target="_blank"><img src="/sites/default/files/theme/social_fb.png" width="23" height="24"/></a></li><li><a href="http://twitter.com/skateistan" target="_blank"><img src="/sites/default/files/theme/social_twitter.png" width="24" height="24"/></a></li><li><a href="http://vimeo.com/skateistan" target="_blank"><img src="/sites/default/files/theme/social_vimeo.png" width="24" height="24"/></a></li><li><a href="http://youtube.com/skateistan" target="_blank"><img src="/sites/default/files/theme/social_yt.png" width="23" height="24"/></a></li><li><a href="http://instagram.com/skateistan" target="_blank"><img src="/sites/default/files/theme/social_instagram.png" width="23" height="24"/></a></li><li><a href="http://skateistan.org/rss.xml" target="_blank"><img src="/sites/default/files/theme/social_rss.png" width="23" height="24"/></a></li><li><a href="http://pinterest.com/skateistan" target="_blank"><img src="/sites/default/files/theme/social_pinterest.png" width="24" height="24"/></a></li><li><a href="http://www.linkedin.com/company/1714682" target="_blank"><img src="/sites/default/files/theme/social_linkedin.png" width="24" height="24"/></a></li> 
-      	  </ul>
+          <ul id="socialmedia">
+             <li id="social_facebook"><a href="http://facebook.com/skateistan" target="_blank"></a></li><li id="social_twitter"><a href="http://twitter.com/skateistan" target="_blank"></a></li><li id="social_vimeo"><a href="http://vimeo.com/skateistan" target="_blank"></a></li><li id="social_youtube"><a href="http://youtube.com/skateistan" target="_blank"></a></li><li id="social_instagram"><a href="http://instagram.com/skateistan" target="_blank"></a></li><li id="social_rss"><a href="http://skateistan.org/rss.xml" target="_blank"></a></li><li id="social_pinterest"><a href="http://pinterest.com/skateistan" target="_blank"></a></li><li id="social_linkedin"><a href="http://www.linkedin.com/company/1714682" target="_blank"></a></li>
+          </ul>
         </div>
         <div id="diamond_right_meta" class="diamond_right"></div>
       </div>

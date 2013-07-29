@@ -50,11 +50,11 @@ body {
 #meta {
   padding-left: 350px;
   padding-top: 7px;
-  width: 615px;
+  width: 641px;
   height: 25px;
 }
 
-/* Meta wrapper for region menu, search bar and social media icons */ 
+/* Meta wrapper for region menu, search bar and social media icons */
 #meta-wrapper {
   width: 100%;
   height: 25px;
@@ -64,24 +64,99 @@ body {
 /* Social media link wrapper */
 #socialwrapper {
   display: inline-block;
-  padding-top: 0px;
-  padding-left: 145px;
-  width: 235px;
-  vertical-align: top;
+  margin-left: 175px;
   height:25px;
 }
 
-ul.socialmedia {
-  display: inline;
-  top: 0px;
-  height: 25px;
-  padding-left:29px;
+#socialmedia {
+  position: relative;
+  margin-top: 0px;
 }
 
-ul.socialmedia li {                 /* header/meta/meta-wrapper/socialmedia icon list on top - mb */
+#socialmedia li {                 /* header/meta/meta-wrapper/socialmedia icon list on top - mb */
+  position: absolute;
   list-style: none;                 /* no bullets in list */
-  display:inline;
-  padding-left:1px;
+  display:inline-block;
+  background: url(../images/skateistan-social-media.png) no-repeat top left;
+}
+
+#socialmedia li,
+#socialmedia a {
+  height:24px;
+  width:24px;
+  display:block;
+}
+
+#social_facebook {
+  left:0;
+  background-position: 0 0;
+}
+
+#social_facebook a:hover {
+  background: url(../images/skateistan-social-media.png) 0 -48px !important;
+}
+
+#social_twitter {
+  left:25px;
+  background-position: 0 -96px !important;
+}
+
+#social_twitter a:hover {
+  background: url(../images/skateistan-social-media.png) 0 -144px !important;
+}
+
+#social_vimeo {
+  left:50px;
+  background-position: 0 -192px !important;
+}
+
+#social_vimeo a:hover {
+  background: url(../images/skateistan-social-media.png) 0 -240px !important;
+}
+
+#social_youtube {
+  left:75px;
+  background-position: 0 -288px !important;
+}
+
+#social_youtube a:hover {
+  background: url(../images/skateistan-social-media.png) 0 -336px !important;
+}
+
+#social_instagram {
+  left:100px;
+  background-position: 0 -384px !important;
+}
+
+#social_instagram a:hover {
+  background: url(../images/skateistan-social-media.png) 0 -432px !important;
+}
+
+#social_rss {
+  left: 125px;
+  background-position: 0 -480px !important;
+}
+
+#social_rss a:hover {
+  background: url(../images/skateistan-social-media.png) 0 -528px !important;
+}
+
+#social_pinterest {
+  left:150px;
+  background-position: 0 -576px !important;
+}
+
+#social_pinterest a:hover {
+  background: url(../images/skateistan-social-media.png) 0 -624px !important;
+}
+
+#social_linkedin {
+  left:175px;
+  background-position: 0 -672px !important;
+}
+
+#social_linkedin a:hover {
+  background: url(../images/skateistan-social-media.png) 0 -720px !important;
 }
 
 /* Diamond arrow < */
@@ -118,6 +193,7 @@ ul.socialmedia li {                 /* header/meta/meta-wrapper/socialmedia icon
 /* Diamond > in meta to float right */
 #diamond_right_meta {
   float:right;
+  padding-left: 30px;
 }
 
 /* Full content width Diamond divider */
@@ -311,7 +387,7 @@ img.team {
 
 /* Image class for Art auction photos */
 img.art-auction {
-  width:200px;
+  width:300px;
 }
 
 
