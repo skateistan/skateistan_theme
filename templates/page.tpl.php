@@ -119,9 +119,9 @@
             $block = module_invoke('search', 'block_view', 'search');
             print render($block);
           ?>
-        <div id="socialwrapper">
-          <ul id="socialmedia">
-             <li id="social_facebook"><a href="http://facebook.com/skateistan" target="_blank"></a></li><li id="social_twitter"><a href="http://twitter.com/skateistan" target="_blank"></a></li><li id="social_vimeo"><a href="http://vimeo.com/skateistan" target="_blank"></a></li><li id="social_youtube"><a href="http://youtube.com/skateistan" target="_blank"></a></li><li id="social_instagram"><a href="http://instagram.com/skateistan" target="_blank"></a></li><li id="social_rss"><a href="http://skateistan.org/rss.xml" target="_blank"></a></li><li id="social_pinterest"><a href="http://pinterest.com/skateistan" target="_blank"></a></li><li id="social_linkedin"><a href="http://www.linkedin.com/company/1714682" target="_blank"></a></li>
+        <div class="socialwrapper">
+          <ul class="socialmedia">
+             <li class="social_facebook"><a href="http://facebook.com/skateistan" target="_blank"></a></li><li class="social_twitter"><a href="http://twitter.com/skateistan" target="_blank"></a></li><li class="social_vimeo"><a href="http://vimeo.com/skateistan" target="_blank"></a></li><li class="social_youtube"><a href="http://youtube.com/skateistan" target="_blank"></a></li><li class="social_instagram"><a href="http://instagram.com/skateistan" target="_blank"></a></li><li class="social_rss"><a href="http://skateistan.org/rss.xml" target="_blank"></a></li><li class="social_pinterest"><a href="http://pinterest.com/skateistan" target="_blank"></a></li><li class="social_linkedin"><a href="http://www.linkedin.com/company/1714682" target="_blank"></a></li>
           </ul>
         </div>
         <div id="diamond_right_meta" class="diamond_right"></div>
