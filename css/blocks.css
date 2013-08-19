@@ -56,6 +56,12 @@ h2.block-title { /* Block title - h2 to h4 */
 }
 */
 
+/* Space on Get Involved for preface top block */
+#block-block-50 { 
+	padding-top: 10px;
+}
+
+
 /* Spacer on Get Involved page to make diamond in line */
 #block-block-51 { 
 	padding-top: 39px;
