@@ -77,7 +77,7 @@ body {
   position: absolute;
   list-style: none;                 /* no bullets in list */
   display:inline-block;
-  background: url(../images/skateistan-social-media.png) no-repeat top left;
+  background: url(../images/elements.png) no-repeat top left;
 }
 
 .socialmedia li,
@@ -93,7 +93,7 @@ body {
 }
 
 .social_facebook a:hover {
-  background: url(../images/skateistan-social-media.png) 0 -48px !important;
+  background: url(../images/elements.png) 0 -48px !important;
 }
 
 .social_twitter {
@@ -102,7 +102,7 @@ body {
 }
 
 .social_twitter a:hover {
-  background: url(../images/skateistan-social-media.png) 0 -144px !important;
+  background: url(../images/elements.png) 0 -144px !important;
 }
 
 .social_vimeo {
@@ -111,7 +111,7 @@ body {
 }
 
 .social_vimeo a:hover {
-  background: url(../images/skateistan-social-media.png) 0 -240px !important;
+  background: url(../images/elements.png) 0 -240px !important;
 }
 
 .social_youtube {
@@ -120,7 +120,7 @@ body {
 }
 
 .social_youtube a:hover {
-  background: url(../images/skateistan-social-media.png) 0 -336px !important;
+  background: url(../images/elements.png) 0 -336px !important;
 }
 
 .social_instagram {
@@ -129,7 +129,7 @@ body {
 }
 
 .social_instagram a:hover {
-  background: url(../images/skateistan-social-media.png) 0 -432px !important;
+  background: url(../images/elements.png) 0 -432px !important;
 }
 
 .social_rss {
@@ -138,7 +138,7 @@ body {
 }
 
 .social_rss a:hover {
-  background: url(../images/skateistan-social-media.png) 0 -528px !important;
+  background: url(../images/elements.png) 0 -528px !important;
 }
 
 .social_pinterest {
@@ -147,7 +147,7 @@ body {
 }
 
 .social_pinterest a:hover {
-  background: url(../images/skateistan-social-media.png) 0 -624px !important;
+  background: url(../images/elements.png) 0 -624px !important;
 }
 
 .social_linkedin {
@@ -156,7 +156,7 @@ body {
 }
 
 .social_linkedin a:hover {
-  background: url(../images/skateistan-social-media.png) 0 -720px !important;
+  background: url(../images/elements.png) 0 -720px !important;
 }
 
 /* Diamond arrow < */
@@ -165,7 +165,7 @@ body {
   display:inline-block;
   width: 18px;
   height: 24px;
-  background-image: url(../images/diamond_left.png);
+  background: url(../images/elements.png) no-repeat -40px 0px;
 }
 
 /* Diamond arrow || */
@@ -173,10 +173,8 @@ body {
   display: inline-block;
   width: 25px;
   height: 24px;
-  padding-top: 1px;
   padding-right: 4px;
-  background-image: url(../images/diamond_middle.png);
-  background-repeat: no-repeat;
+  background: url(../images/elements.png) no-repeat -40px -48px;
 }
 
 /* Diamond arrow > */
@@ -184,10 +182,7 @@ body {
   display: inline-block;
   width: 18px;
   height: 24px;
-  vertical-align:top;
-  padding-top: 2px;
-  background-image: url(../images/diamond_right.png);
-  background-repeat: no-repeat;
+  background: url(../images/elements.png) no-repeat -40px -96px;
 }
 
 /* Diamond > in meta to float right */
@@ -261,9 +256,7 @@ body {
   height: 90px;
   margin-top: 98px;
   margin-left: 735px;
-  background-image: url(../images/curtain.png);
-  background-repeat: no-repeat;
-  background-position: top left;
+  background: url(../images/elements.png) no-repeat -40px -432px;
   z-index: 10;
 }
 
