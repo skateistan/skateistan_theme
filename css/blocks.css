@@ -38,42 +38,33 @@ h2.block-title { /* Block title - h2 to h4 */
 }
 
 /* Space for top block in sidebar on Frontpage to make diamond dividers in line */
-#block-block-25 { 
+.front-topspace { 
 	padding-top:56px;
 }
 
 /* Newsletter signup block in Footer */
-#block-block-26 { 
+.footer-subscribe { 
 	display: inline-block;
 	margin-left: 220px;
 }
 
-/* Space on custom pages to make diamond dividers in line */
-/*#block-block-43, <-- blocks in Donate sidebar & About Us temporarily not at very top 
-#block-block-39 { 
-        padding-top: 51px;
-
-}
-*/
-
 /* Space on Get Involved for preface top block */
-#block-block-50 { 
+.pad10 { 
 	padding-top: 10px;
 }
 
 
 /* Spacer on Get Involved page to make diamond in line */
-#block-block-51 { 
+.page-topspace { 
 	padding-top: 39px;
 }
 
 /* Margin left of ul in Frontpage DDblock slideshow */
-#ddblock-number-pager-4 { 
+.front-slider .ddblock-pager { 
 	margin-left:448px;
 }
 
-/* Margin left of ul in Frontpage DDblock slideshow */
-#ddblock-number-pager-7 { 
+.fundraising-slider .ddblock-pager { 
 	margin-left:528px;
 }
 
@@ -243,7 +234,7 @@ form#search-block-form--2 {
 }
 
 /* Footer left navigation menu block */
-#block-menu-menu-footer-left { 
+.footer-left { 
 	display: inline-block;
 	width: 150px;
 	height:23px;
@@ -252,7 +243,7 @@ form#search-block-form--2 {
 }
 
 /* Footer middle navigation menu block */
-#block-menu-menu-footer-middle { 
+.footer-middle { 
 	display: inline-block;
 	width: 150px;
 	margin-left: 30px;
@@ -261,7 +252,7 @@ form#search-block-form--2 {
 }
 
 /* Footer right navigation menu block */
-#block-menu-menu-footer-right { 
+.footer-right { 
 	display: inline-block;
 	width: 150px;
 	margin-left: 30px;
