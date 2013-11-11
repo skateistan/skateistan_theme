@@ -53,10 +53,14 @@ h2.block-title { /* Block title - h2 to h4 */
 	padding-top: 10px;
 }
 
-
 /* Spacer on Get Involved page to make diamond in line */
 .page-topspace { 
 	padding-top: 39px;
+}
+
+/* Spacer for all pages on entity sites with old layout (no Panels) */
+.entity-page-topspace {
+	padding-top: 33px;
 }
 
 /* Margin left of ul in Frontpage DDblock slideshow */
