@@ -343,7 +343,7 @@ h3.title {
 div.generic-button {
   display: inline-block;
   vertical-align: top;
-  padding-top: 3px;
+  padding-top: 5px;
 }
 
 div.generic-button a {
