@@ -576,7 +576,7 @@ a:hover img.img_nohover {
 }
 
 #photo-quote-container {
-        width:580px;
+        width:940px;
         padding:10px;
         margin:0 auto;
         position:relative;
@@ -584,7 +584,7 @@ a:hover img.img_nohover {
 }
 
 #photo-quote-slides {
-        margin-left:26px;
+        margin-left:15px;
 }
 
 /*
@@ -594,13 +594,14 @@ a:hover img.img_nohover {
         Set to display none, prevents content flash
 */
 
-#photo-quote-slides .pq_slides_container {
-        width:500px;
+#photo-quote-slides .slides_container {
+        width:910px;
         overflow:hidden;
         float:left;
         position:relative;
         display:none;
 }
+
 
 /*
         Each slide
@@ -610,9 +611,9 @@ a:hover img.img_nohover {
         Set to display block
 */
 
-.pq_slides_container a {
-        width:500px;
-        height:318px;
+#photo-quote-slides .slides_container a {
+        width:910px;
+        height:400px;
         display:block;
 }
 
@@ -622,9 +623,10 @@ a:hover img.img_nohover {
 
 #photo-quote-slides .next,#photo-quote-slides .prev {
         position:absolute;
-        top:150px;
+        top:187px;
         left:0;
         width:18px;
+        text-indent:-10px;
         height:2px;
         padding-top:21px;
         overflow:hidden;
@@ -637,9 +639,10 @@ a:hover img.img_nohover {
 }
 
 #photo-quote-slides .next {
-        left:554px;
+        left:940px;
         background:url('http://skateistan.org/sites/default/files/theme/diamond_right.png');
 }
+
 
 
 /*
