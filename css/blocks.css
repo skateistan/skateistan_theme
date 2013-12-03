@@ -114,6 +114,14 @@ h2.block-title { /* Block title - h2 to h4 */
 	border:2px solid black;
 }
 
+.donation_meter_box_infocus {
+        position:relative;
+        height:20px;
+        width:270px;
+        margin: 25px 0px 60px 20px;
+        border:2px solid black;
+}
+
 .donation_meter_bar {	/* show current amount in % width of total */
 	height:20px;
 	background:#278E00;
