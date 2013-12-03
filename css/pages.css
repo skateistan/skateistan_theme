@@ -568,6 +568,13 @@ a:hover img.img_nohover {
 }
 
 /* KSR Photo/Quote slider */
+.no-hover a:hover, 
+.no-hover a:focus, 
+.no-hover a:active {
+        color:#000;
+        text-decoration:none;
+}
+
 #photo-quote-container {
         width:580px;
         padding:10px;
@@ -587,7 +594,7 @@ a:hover img.img_nohover {
         Set to display none, prevents content flash
 */
 
-#photo-quote-slides .slides_container {
+#photo-quote-slides .pq_slides_container {
         width:500px;
         overflow:hidden;
         float:left;
@@ -603,7 +610,7 @@ a:hover img.img_nohover {
         Set to display block
 */
 
-.slides_container a {
+.pq_slides_container a {
         width:500px;
         height:318px;
         display:block;
