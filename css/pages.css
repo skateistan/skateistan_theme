@@ -180,9 +180,29 @@ body {
 /* Diamond arrow > */
 .diamond_right {
   display: inline-block;
-  width: 18px;
-  height: 24px;
+  width: 26px;
+  height: 43px;
   background: url(../images/elements.png) no-repeat -40px -96px;
+}
+
+/* Diamond arrow big < */
+.diamond_left_big {
+  vertical-align:top;
+  display:inline-block;
+  width: 26px;
+  height: 43px;
+  margin-top: -10px;
+  background: url(/sites/default/files/ksr-sprite.png) no-repeat -159px -180px;
+}
+
+/* Diamond arrow big > */
+.diamond_right_big {
+  display: inline-block;
+  vertical-align: top;
+  width: 26px;
+  height: 43px;
+  margin-top: -10px;
+  background: url(/sites/default/files/ksr-sprite.png) no-repeat -190px -180px;
 }
 
 /* Diamond > in meta to float right */
