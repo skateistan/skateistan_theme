@@ -118,7 +118,7 @@ h2.block-title { /* Block title - h2 to h4 */
         position:relative;
         height:20px;
         width:270px;
-        margin: 25px 0px 60px 20px;
+        margin: 25px 0px 70px 20px;
         border:2px solid black;
 }
 
@@ -132,7 +132,7 @@ h2.block-title { /* Block title - h2 to h4 */
 	top:30px;
 	left:0px;
 	height:20px;
-	width:220px;
+	width:265px;
 	color:#000;
 	font-family:Anton, Arial;
 	font-size: 20px;
