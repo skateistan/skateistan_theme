@@ -182,7 +182,6 @@ div.field-type-taxonomy-term-reference > div.field-items > div.field-item {
 }
 
 /* Set styles for In Focus panes to be divided with black bar */
-div.panel-pane.pane-block.pane-block-79 h2.pane-title,
 div.panel-pane.pane-block.pane-block-65 h2.pane-title,
 div.panel-pane.pane-views.pane-infocus-photo-slideshow h2.pane-title,
 div.panel-pane.pane-custom.pane-1 h2.pane-title,
@@ -197,8 +196,8 @@ div.panel-pane.pane-custom.pane-5 h2.pane-title {
   background-position: left top;
 }
 
-/* In Focus Fundraising Drive Title styles */
-div.panel-pane.pane-block.pane-block-82 h2.pane-title {
+/* In Focus styles for item at top without divider img  */
+div.panel-pane.pane-block.pane-block-79 h2.pane-title {
   line-height:1.5em !important;
   font-size:1.5em !important;
   background-image:none !important;
